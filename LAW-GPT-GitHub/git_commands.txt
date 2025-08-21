@@ -1,0 +1,17 @@
+# Navigate to the GitHub folder
+cd "..\LAW-GPT-GitHub"
+
+# Initialize Git
+git init
+
+# Add all files
+git add .
+
+# Commit
+git commit -m "LAW-GPT 2.0 - Professional Legal AI System"
+
+# Add remote (replace with your GitHub repo URL)
+git remote add origin https://github.com/yourusername/law-gpt-professional.git
+
+# Push to GitHub
+git push -u origin main
